@@ -167,7 +167,7 @@ nav ul li a{
  width: 100%;
  
  padding: 100px 20%;
- background-image: url(Images/footer3.PNG);
+ background-image: url(./Images/footer3.PNG);
  background-size: cover;
  display: flex;
  flex-direction: row;

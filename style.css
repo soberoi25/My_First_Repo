@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    
+}
+html{scroll-behavior: smooth;}
+
+.container {
+    width: 1;
+    min-height: 100vh;
+    background-image: url(images/Background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 0px 0%;
+}
+Nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 15px;
+}
+.logo{
+    width: 85px;
+    cursor: pointer;
+}
+nav ul{
+    list-style: none;
+    width: 85%;
+    text-align: right;
+    padding-right: 0px;
+}
+nav ul li{
+    display: inline-block;
+    margin:0px 25px;
+}
+nav ul li a{
+    color: #464545;
+    text-decoration: none;
+    font-family: 'chalkduster';
+    font-weight: 'lighter';
+    text-align: center;
+}
+.Homepagepicsarika{
+    width: 35%;
+    transform: rotate(-5deg);
+    filter: drop-shadow(8px 8px 5px rgb(61, 61, 61));
+    
+}
+.Lotus{
+    position: absolute;
+    width: 35%;
+   top: 695px;
+   left: 785px;
+   right: 0;
+   transform: rotate(10deg);
+   filter: drop-shadow(10px 10px 10px rgb(3, 3, 3));
+   
+    
+}
+.henna1{
+    position: absolute;
+    width: 2%;
+   top: 100px;
+   left: 750px;
+   right: 0;
+   
+    
+}
+.henna2{
+    position: absolute;
+    width: 2%;
+   top: 150px;
+   left: 1500px;
+   right: 0;
+   
+    
+}
+.henna3{
+    position: absolute;
+    width: 2%;
+   top: 550px;
+   left: 695px;
+   right: 0;
+  
+}
+.henna4{
+    position: absolute;
+    width: 2%;
+   top: 950px;
+   left: 0px;
+   right: 0;
+   
+    
+}
+.henna5{
+    position: absolute;
+    width: 2%;
+   top: 800px;
+   left: 1550px;
+   right: 0;
+  
+    
+}
+.henna6{
+    position: absolute;
+    width: 2%;
+   top: 10px;
+   left: 250px;
+   right: 0;
+ 
+    
+}
+.henna7{
+    position: absolute;
+    width: 2%;
+   top: 200px;
+   left: 1075px;
+   right: 0;  
+}
+.content{
+    position: absolute;
+    bottom: 35%;
+    left: 50%;
+    margin: 0px 50px;
+    text-align: center;
+    padding-right: 20px;
+}
+.Psych{
+    font-family:"Athiti";
+    font-size: 45px;
+    font-weight:600;
+    text-align: center;
+}
+.mentalhealthproblem-solver{
+    font-family:"Azeret Mono";
+    font-size: 26px;
+    font-weight:200;
+}
+.rs{
+    font-family:"Georgia";
+    font-size: 23px;
+    font-weight:100;
+}
+.UXDesign{
+    font-family:"Arbutus Stab";
+    font-size: 26px;
+    font-weight:400;
+}
+.user-friendlyexperiences{
+    font-family:"Avenir Next";
+    font-size: 26px;
+    font-weight:400;
+}
+.untangling{
+    font-family:"Averia Gruesa Libre";
+    font-size: 26px;
+    font-weight:500;
+}
+.footer{
+ margin-top: 150px;
+ width: 100%;
+ 
+ padding: 100px 20%;
+ background-image: url(Images/Footer3.png);
+ background-size: cover;
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ margin: 0;
+ Padding: 50;
+  color:#efefef;
+ 
+ background-attachment: scroll;
+ 
+ 
+
+}
+.footer div{
+    text-align: center;
+    margin: 20px;
+    
+   
+}
+.col-2{
+    flex-grow: 2;
+}
+.footer div h3{
+    font-weight:300;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+    font-family: 'chalkduster';
+    font-weight: lighter;
+}
+.col-1 a{
+    display: block;
+    text-decoration: none;
+    color: #efefef;
+    margin-bottom: 5px;
+    font-weight: lighter;
+    font-size: small;
+    font-family: 'chalkduster';
+
+}
+.col-3 p{
+    font-family: 'chalkduster';
+    font-weight: lighter;
+}
+form input{
+    width: 400px;
+    height: 45px;
+    border-radius: 50px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    font-family: 'chalkduster';
+}
+form button{
+    background: transparent;
+    border:2px solid #fff;
+    color: #fff;
+    border-radius:50px;
+    padding: 10px 30px; 
+    font-size: 15px;
+    font-family: 'chalkduster';
+}
+.social-icons{
+    margin-top: 0px;
+}
+.social-icons i{
+    font-size:22px;
+    margin:5px;
+    cursor: pointer;
+
+}

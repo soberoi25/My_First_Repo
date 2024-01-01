@@ -11,7 +11,7 @@ html{scroll-behavior: smooth;}
 .container {
     width: 1;
     min-height: 100vh;
-    background-image: url(images/Background.jpg);
+    background-image: url(Images/Background.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
